@@ -20,5 +20,5 @@
 		"classmap": [
 			"src/Webhook.php"
 		]
-	},
+	}
 }
