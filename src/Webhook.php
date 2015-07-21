@@ -34,7 +34,7 @@ class Webhook
 		$event = $data['event_name'];
 
 		foreach($this->getCallbacks($event) as $callback) {
-			call_user_func($callback, $data, $webhook);
+			call_user_func($callback, $data, $this);
 		}
 	}
 
