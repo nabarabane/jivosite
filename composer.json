@@ -1,0 +1,24 @@
+{
+	"name": "nabarabane/jivosite",
+	"type": "library",
+	"description": "",
+	"keywords": [],
+	"homepage": "",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Denis Gerasimov",
+			"email": "mailbox.gerasimov@gmail.com",
+			"homepage": "",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src/Webhook.php"
+		]
+	},
+}
