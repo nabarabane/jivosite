@@ -12,11 +12,11 @@ require('{Путь до файла}Webhook.php');
 ### Composer
 Добавьте в блок "require" в composer.json вашего проекта:
 ```json
-"nabarabane/jivosite": "1.*"
+"nabarabane/jivosite": "~1.0"
 ```
 или в командной строке:
 ```sh
-composer require nabarabane/jivosite:1.*
+composer require nabarabane/jivosite:~1.0
 ```
 Не забудьте включить автолоадер
 ```php

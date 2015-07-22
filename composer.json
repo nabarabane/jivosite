@@ -1,15 +1,12 @@
 {
 	"name": "nabarabane/jivosite",
 	"type": "library",
-	"description": "",
-	"keywords": [],
-	"homepage": "",
+	"description": "Простейшая PHP-обертка для приема webhook-уведомлений от Jivosite",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Denis Gerasimov",
 			"email": "mailbox.gerasimov@gmail.com",
-			"homepage": "",
 			"role": "Developer"
 		}
 	],
