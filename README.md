@@ -31,7 +31,7 @@ require('autoload.php');
 
 require('Webhook.php');
 
-$listener = new Webhook();
+$listener = new Jivosite\Webhook();
 
 /*
 Задайте обработчики для тех событий, которые вы хотите слушать

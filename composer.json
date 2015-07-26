@@ -11,11 +11,11 @@
 		}
 	],
 	"require": {
-		"php": ">=5.2.0"
+		"php": ">=5.3.0"
 	},
 	"autoload": {
-		"classmap": [
-			"src/Webhook.php"
-		]
+		"psr-4": {
+			"Jivosite\\": "src/"
+		}
 	}
 }

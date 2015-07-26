@@ -1,5 +1,7 @@
 <?php
 
+namespace Jivosite;
+
 class Webhook
 {
 	private $hooks;
